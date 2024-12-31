@@ -1,0 +1,1302 @@
+@import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 0% 100%;
+  }
+}
+
+@keyframes colorWave {
+  0% {
+    background-color: #4CCfff;
+  }
+  50% {
+    background-color: #1CBBFF;
+  }
+  100% {
+    background-color: #4CCfff;
+  }
+}
+
+@keyframes slideFromLeft {
+  0% {
+    transform: translateX(-200%);
+    opacity: 0;
+  }
+  70% {
+    transform: translateX(35%);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideFromRight {
+  0% {
+    transform: translateX(200%);
+    opacity: 0;
+  }
+  60% {
+    transform: translateX(-15%);
+    opacity: 1;
+  }
+  75% {
+    transform: translateX(10%);
+    opacity: 1;
+  }
+  90% {
+    transform: translateX(-5%);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+body {
+  background: linear-gradient(
+    to bottom,
+    #eff9ff 0%,
+    #ffffff 30%,
+    #eff9ff 50%,
+    #ffffff 70%,
+    #eff9ff 100%
+  );
+  min-height: 100vh;
+  background-size: 100% 300%;
+  animation: gradientAnimation 12s ease-in-out infinite alternate;
+}
+.header-container {
+  width: 98%;
+  padding: 1rem;
+}
+
+.header-links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem; /* Creates equal spacing between links */
+}
+
+.header-links a {
+  text-decoration: underline;
+  color: #666;
+  font-size: .95rem;
+  font-weight: 100;
+  font-family: 'Suez One';
+}
+
+.header-links a:hover {
+  color: #666;
+}
+.header-title {
+  font-size: 1rem;
+  color: #59B6F2;
+  font-weight: 600;
+  font-family: 'Suez One', serif;
+  width: 30vw;
+  max-width: 210px;
+  min-width: 50px;
+  height: auto;
+}
+.blog-link {
+  font-size: 1rem;
+  color: #59B6F2;
+  font-weight: 600;
+  font-family: 'Suez One', serif;
+  margin-right: 1rem;
+  text-decoration: underline;
+}
+.hero-section {
+  text-align: center;
+  padding: .5rem .5rem;
+}
+.hero-title {
+  font-size: 2rem;
+  margin-top: .5rem;
+  line-height: 1.25;
+  font-family: 'Suez One', serif;
+  font-weight: 500;
+  color: #59B6F2;
+  text-shadow: 
+  -1px -1px 0 white,  /* Top-left */
+   1px -1px 0 white,  /* Top-right */
+  -1px  1px 0 white,  /* Bottom-left */
+   1px  1px 0 white;  /* Bottom-right */
+}
+h2.nufriends-description {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: .5rem;
+}
+.signup-container {
+  max-width: 500px;
+  margin: .25rem auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+.signup-title {
+  font-size: 1.5rem;
+  color: #59B6F2;
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+  font-family: 'Suez One', serif;
+}
+
+.signup-subtitle {
+  color: #59B6F2;
+  margin-bottom: .75rem;
+  font-family: 'Suez One', serif;
+  font-weight: 200;
+  font-size: 1.2rem;  
+}
+
+.signup-form {
+  display: flex;
+  gap: 0.1rem;
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.email-input {
+  flex: 1;
+  padding: 0.5rem;
+  border: 2px solid #54b6f7;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.2s;
+  height: 2.5rem;
+}
+
+.email-input:focus {
+  border-color: #54b6f7;
+  box-shadow: 0 0 0 2px rgba(89, 182, 242, 0.1);
+}
+
+.signup-button {
+  background-color: #42aaff;
+  color: white;
+  padding: 0.25rem .25rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  height: 2.5rem;
+  font-size: .8rem;
+  
+  /* Animation properties */
+  animation: colorWave 4s infinite ease-in-out;
+  transition: transform 0.2s;
+}
+
+.signup-button:hover {
+  background-color: #3490dc;
+}
+.signup-disclaimer{
+  font-size: .65rem;
+  margin-bottom: -1rem;
+  font-style: italic;
+  margin-top: 0.1rem;
+}
+
+.nufriends-description-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.nufriends-intro {
+  padding: .25rem;
+  text-align: center;
+  font-family: 'Suez One', serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: #54b6f7;
+}
+.nufriends-description {
+  padding: .25rem 1rem;
+  text-align: center;
+  font-size: .9rem;
+  color: #7c7c7c;
+  font-weight: 500;
+  margin-bottom: .25rem;
+}
+.answer-questions-container, .help-from-yu-container, .yu-in-real-world-container,
+.start-conversation-container, .growing-friendships-container {
+  display: flex;
+  flex-direction: row;
+  gap: 3.5rem; /* Adds space between image and text */
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.AQ-text, .help-from-yu-text, .growing-friendships-text {
+  flex: 0.45; /* Fixed syntax */
+  font-size: 1rem;
+  color: #54b6f7;
+  font-weight: 200;
+  display: flex;
+  margin-top: 3rem;; /* Vertically centers the text */
+  text-align: center;
+  margin-right: 2rem;
+  font-family: 'Suez One', serif
+}
+.AQ-demo, .help-from-yu-demo, .growing-friendships-demo {
+  flex: .55;
+  margin-left: 2.5rem;
+  border: 3px solid #8c8c8c;
+}
+.start-conversation-text, .yu-in-real-world-text {
+  flex:0.45; /* Fixed syntax */
+  font-size: 1rem;
+  color: #54b6f7;
+  font-weight: 200;
+  display: flex;
+  margin-top: 2rem;; /* Vertically centers the text */
+  text-align: center;
+  margin-left: 2rem;
+  font-family: 'Suez One', serif
+  
+}
+.start-conversation-demo, .yu-in-real-world-demo {
+  flex: .55;
+  margin-right: 2.5rem;
+  border: 3px solid #8c8c8c;
+}
+.signup-container {
+  max-width: 500px;
+  padding: 2rem;
+  text-align: center;
+  margin-top: -.5rem;
+}
+.chat-widget {
+  position: fixed;
+  bottom: 1rem;
+  right: .75rem;
+  z-index: 1000;
+  font-family: Arial, sans-serif;
+}
+
+.chat-button {
+  background-color: #42aaff;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: .75rem .5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+  transition: transform 0.2s;
+}
+
+.chat-button:hover {
+  transform: translateY(-2px);
+}
+
+.chat-icon {
+  font-size: 1.2rem;
+}
+
+.chat-content {
+  position: absolute;
+  bottom: calc(100% + 1rem);
+  right: 0;
+  width: 300px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+  display: none;
+  overflow: hidden;
+  transition: opacity 0.3s, transform 0.3s;
+  opacity: 0;
+  transform: translateY(20px);
+  pointer-events: none;
+}
+
+.chat-content.active {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: all;
+}
+
+.chat-header {
+  background: #42aaff;
+  color: white;
+  padding: .75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chat-header h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0;
+}
+
+.chat-body {
+  padding: 1.25rem;
+  line-height: 1.5;
+}
+.chat-disclaimer {
+  font-size: 0.6rem;
+  margin-top: -1rem;
+}
+.chat-body p {
+  margin: 0 0 1rem 0;
+}
+
+.chat-body a {
+  color: #2196F3;
+  text-decoration: none;
+}
+
+.chat-body a:hover {
+  text-decoration: underline;
+}
+.chat-label {
+  font-size: .75rem;
+  color: #ffffff;
+  font-weight: 500;
+  text-align: center;
+}
+.justin-image {
+  border-radius: 25px;
+  margin-top: -.5rem;
+  margin-bottom: .5rem;
+}
+.promise-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.promise-container ol {
+  padding-left: 40px;
+}
+
+.promise-container li {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.promise-header{
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #54b6f7;
+  font-family: 'Suez One', serif;
+  text-align: center;
+}
+.blog-container {
+  max-width: 800px;  /* limits width for better readability */
+  margin: 0 auto;    /* centers the container */
+  padding: 20px 40px; /* adds space around the content */
+}
+
+.blog-container h5 {
+  font-size: 1.5rem;   /* increases font size */
+  font-weight: 400;  /* makes text bold */
+  color: #54b6f7;    /* changes text color */
+  margin-bottom: 12px; /* adds space below the heading */
+  text-align: center;  /* centers the heading */
+  font-family: 'Suez One', serif;
+
+}
+
+.blog-container p {
+  margin-bottom: 24px;  /* adds space between paragraphs */
+  line-height: 1.8;     /* adds space between lines */
+  font-size: 16px;
+  font-weight: 420;    
+  color: #555555  /* makes text more readable */
+}
+
+.signature-container {
+  margin-top: -1rem;
+  padding-left: 3rem;
+  
+}
+
+.signature {
+  font-size: 1.2rem;
+  color: #666;  /* Match your brand blue */
+  transform: rotate(-4deg);
+  line-height: 1;  /* Reduce line height to bring lines closer */
+}
+
+.signature-title {
+  font-size: 0.9rem;
+  color: #666;
+  margin-left: 0.5rem;
+  margin-bottom: -3rem;  /* Slight tilt for authenticity */
+
+}
+.phone-container {
+  width: 100%;
+  max-width: 240px;  /* Adjust based on your needs */
+  margin: .1rem auto;
+  padding: 10px;
+}
+.phone-frame {
+  position: relative;
+  background: #1a1a1a;
+  border-radius: 50px;
+  padding: 12px;
+  box-shadow: 
+    0 0 0 2px #2a2a2a,
+    inset 0 0 5px rgba(0, 0, 0, 0.5),
+    0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* Power button */
+.phone-frame::before {
+  content: '';
+  position: absolute;
+  right: -3px;
+  top: 100px;
+  width: 3px;
+  height: 40px;
+  background: #2a2a2a;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Volume buttons */
+.phone-frame::after {
+  content: '';
+  position: absolute;
+  left: -3px;
+  top: 80px;
+  width: 3px;
+  height: 80px;
+  background: #2a2a2a;
+  border-radius: 3px 0 0 3px;
+}
+.phone-screen {
+  width: 100%;
+  border-radius: 30px;
+  aspect-ratio: 9/19.5;  /* iPhone aspect ratio */
+  object-fit: cover;
+}
+
+.footer-container {
+  background-color: #42a0ff;
+  padding: 3rem 1rem;
+  margin-top: 4rem;
+  border-top: 4px solid #e2e8f0;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-sections {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.footer-section h3 {
+  color: #f6f8f9;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 0.5rem;
+  color: #f6f8f9;
+
+}
+
+.footer-section a {
+  color: #f6f8f9;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer-section a:hover {
+  color: #f6f8f9;
+}
+
+.footer-bottom {
+  padding-top: 2rem;
+  border-top: 1px solid #f6f8f9;
+  text-align: center;
+  color: #e8dada;
+  font-size: 0.875rem;
+}
+.social-links {
+  display: flex;
+  gap: 2rem;
+  margin-top: 0.75rem;
+}
+
+.social-icon {
+  transition: transform 0.2s ease;
+}
+
+.social-icon:hover {
+  transform: translateY(-2px);
+}
+
+/* Make images not look pixelated when scaled */
+.social-icon img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.cookie-notice {
+  margin-top: 1rem;
+  font-size: 0.75rem;
+}
+
+@media (min-width: 620px) 
+{
+  .hero-title {
+    font-size: 3rem;
+  }
+  .blog-link {
+    margin-right: 3rem;
+  }
+  .nufriends-description {
+  font-size: 1.15rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: .5rem;
+  color: #9c9c9c;
+  font-weight: 600;
+}
+  .signup-container {
+    max-width: 600px;
+    margin: .75rem auto;
+    padding: 1rem;
+  }
+  
+  .signup-title {
+    font-size: 2rem;
+    margin-bottom: 0.25rem;
+    font-weight: 500;
+  }
+  
+  .signup-subtitle {
+    font-weight: 300;
+    font-size: 1.5rem;  
+  }
+  
+  .signup-form {
+    max-width: 520px;
+  }
+  
+  .email-input {
+    font-size: 1rem;
+    outline: none;
+  } 
+  .signup-button:hover {
+    background-color: #3490dc;
+  }
+  .signup-disclaimer{
+    font-size: .65rem;
+    margin-bottom: -1rem;
+  }
+  
+  .nufriends-description-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .signup-container {
+    max-width: 500px;
+    padding: 2rem;
+    text-align: center;
+    margin-top: -.5rem;
+  }
+  .chat-widget {
+    position: fixed;
+    bottom: 2rem;
+    right: .75rem;
+    z-index: 1000;
+    font-family: Arial, sans-serif;
+  }
+  
+  .chat-button {
+    background-color: #42aaff;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: .75rem .75rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+    transition: transform 0.2s;
+  }
+  
+  .chat-button:hover {
+    transform: translateY(-2px);
+  }
+  
+  .chat-icon {
+    font-size: 1.2rem;
+  }
+  
+  .chat-content {
+    position: absolute;
+    bottom: calc(100% + 1rem);
+    right: 0;
+    width: 300px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+    display: none;
+    overflow: hidden;
+    transition: opacity 0.3s, transform 0.3s;
+    opacity: 0;
+    transform: translateY(20px);
+    pointer-events: none;
+  }
+  
+  .chat-content.active {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: all;
+  }
+  
+  .chat-header {
+    background: #42aaff;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .chat-header h3 {
+    margin: 0;
+    font-size: 1.1rem;
+  }
+  
+  .close-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .chat-body {
+    padding: 1.25rem;
+    line-height: 1.5;
+  }
+  
+  .chat-body p {
+    margin: 0 0 1rem 0;
+  }
+  
+  .chat-body a {
+    color: #2196F3;
+    text-decoration: none;
+  }
+  
+  .chat-body a:hover {
+    text-decoration: underline;
+  }
+  .chat-label {
+    font-size: .8rem;
+    color: #ffffff;
+    font-weight: 500;
+    text-align: center;
+  }
+  .justin-image {
+    border-radius: 25px;
+    margin-top: -.5rem;
+    margin-bottom: .5rem;
+  }
+  .blog-container {
+    padding: 20px 80px; /* adds space around the content */
+  }
+  
+  .blog-container h5 {
+    font-size: 1.75rem;   /* increases font size */
+  }
+  
+  .blog-container p {
+    margin-bottom: 24px;  /* adds space between paragraphs */
+    line-height: 1.8;     /* adds space between lines */
+    font-size: 16px;
+    font-weight: 420;    
+    color: #555555  /* makes text more readable */
+  }
+  
+  .signature-container {
+    margin-top: -1rem;
+    padding-left: 3rem;
+    
+  }
+  
+  .signature {
+    font-size: 1.3rem;
+    color: #666;  /* Match your brand blue */
+    transform: rotate(-4deg);
+    line-height: 1;  /* Reduce line height to bring lines closer */
+  }
+  
+  .signature-title {
+    font-size: 0.9rem;
+    color: #666;
+    margin-left: 0.5rem;
+    margin-bottom: -3rem;  /* Slight tilt for authenticity */
+  
+  }
+
+  .answer-questions-container, .help-from-yu-container, .yu-in-real-world-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-right: 7rem;
+    margin-left: 7rem;
+  }
+  
+  .AQ-text, .help-from-yu-text, .yu-in-real-world-text {
+    font-size: 1.5rem;
+    color: #54b6f7;
+    font-weight: 200;
+    display: flex;
+    margin-top: 6rem;; /* Vertically centers the text */
+    text-align: center;
+    margin-right: 2rem;
+    font-family: 'Suez One', serif
+  }
+  .AQ-demo, .help-from-yu-demo, .yu-in-real-world-demo {
+    margin-left: 2rem;
+      border: 4px solid #8c8c8c;
+  }
+  .start-conversation-container, .growing-friendships-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-right: 7rem;
+    margin-left: 7rem;
+  }
+  
+  .start-conversation-text, .growing-friendships-text {
+  /* Fixed syntax */
+    font-size: 1.5rem;
+    color: #54b6f7;
+    font-weight: 200;
+    display: flex;
+    margin-top: 6rem;; /* Vertically centers the text */
+    text-align: center;
+    margin-left: 2rem;
+    font-family: 'Suez One', serif
+  }
+  .start-conversation-demo, .growing-friendships-demo {
+  border: 4px solid #8c8c8c;
+  margin-right: 2rem;
+  }
+  .chat-widget {
+    position: fixed;
+    bottom: 2rem;
+    right: 1.5rem;
+    z-index: 1000;
+  }
+  @media screen and (min-width: 1000px) {
+    .blog-link {
+      font-size: 1.2rem;
+      color: #59B6F2;
+      font-weight: 400;
+      font-family: 'Suez One', serif;
+      margin-right: 6rem;
+      text-decoration: underline;
+    }
+    .hero-section {
+      text-align: center;
+      padding: .5rem .5rem;
+    }
+    .hero-title {
+      font-size: 3.75rem;
+      margin-right: 300px;
+      margin-left: 300px;
+    }
+    h2.nufriends-description {
+      font-size: 1.35rem;
+      margin-right: 220px;
+      margin-left: 220px;
+      color: #9c9c9c;
+      font-weight: 600;
+    }
+    .signup-container {
+      max-width: 500px;
+      margin: .25rem auto;
+      padding: 1rem;
+      text-align: center;
+      animation: slideFromLeft 1s 1s forwards;
+      opacity: 0;
+    }
+    .signup-title {
+      font-size: 2.25rem;
+    }
+    
+    .signup-subtitle {
+      font-size: 1.5rem;  
+    }
+    
+    .signup-form {
+      display: flex;
+      gap: 0.1rem;
+      max-width: 420px;
+      margin: 0 auto;
+    }
+    
+    .email-input {
+      flex: 1;
+      padding: 0.75rem;
+      border: 2px solid #54b6f7;
+      border-radius: 8px;
+      font-size: 1rem;
+      outline: none;
+      transition: border-color 0.2s;
+      height: 2.5rem;
+    }
+    
+    .email-input:focus {
+      border-color: #54b6f7;
+      box-shadow: 0 0 0 2px rgba(89, 182, 242, 0.1);
+    }
+    
+    .signup-button {
+        background-color: #42aaff;
+        color: white;
+        padding: 0.25rem .25rem;
+        border: none;
+        border-radius: 8px;
+        font-weight: bold;
+        cursor: pointer;
+        height: 2.5rem;
+        font-size: .8rem;
+        
+        /* Animation properties */
+        animation: colorWave 4s infinite ease-in-out;
+        transition: transform .2s;
+      }
+    
+    .signup-button:hover {
+      background-color: #3490dc;
+    }
+    .nufriends-intro {
+      padding: .25rem;
+      text-align: center;
+      font-family: 'Suez One', serif;
+      font-weight: 400;
+      font-size: 1.25rem;
+      color: #54b6f7;
+    }
+    .answer-questions-container, .help-from-yu-container, .yu-in-real-world-container,
+    .start-conversation-container, .growing-friendships-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-top: 2.5rem;
+      margin-bottom: 4rem;
+      margin-left: 14rem;
+      margin-right: 14rem;
+      gap: 12rem;
+    }
+    
+    .AQ-text, .help-from-yu-text, .yu-in-real-world-text { /* Fixed syntax */
+      font-size: 2rem;
+      color: #54b6f7;
+      font-weight: 200;
+      display: flex;
+      margin-top: 10rem;; /* Vertically centers the text */
+      text-align: center;
+      margin-right: 2rem;
+      font-family: 'Suez One', serif;
+      width: 140px;
+    }
+    .AQ-demo, .help-from-yu-demo, .yu-in-real-world-demo {
+      flex: .55;
+      margin-left: 2.5rem;
+      max-width: 280px; /* Reduced from whatever it was before (probably 400px) */
+      width: 100%;
+    }
+    .start-conversation-text, .growing-friendships-text {
+      font-size: 2rem;
+      color: #54b6f7;
+      font-weight: 200;
+      display: flex;
+      margin-top: 8rem;; /* Vertically centers the text */
+      text-align: center;
+      margin-left: 2rem;
+      font-family: 'Suez One', serif;
+      width: 140px;
+
+    }
+    .start-conversation-demo, .growing-friendships-demo {
+      flex: .55;
+      margin-right: 2.5rem;
+      max-width: 280px; /* Reduced from whatever it was before (probably 400px) */
+      width: 100%;
+    }
+    .signup-container {
+      max-width: 500px;
+      padding: 2rem;
+      text-align: center;
+      margin-top: -.5rem;
+    }
+    .chat-widget {
+      position: fixed;
+      bottom: 2rem;
+      right: 1.75rem;
+      z-index: 1000;
+      font-family: Arial, sans-serif;
+    }
+    
+    .chat-button {
+      background-color: #42aaff;
+      color: white;
+      border: none;
+      border-radius: 50px;
+      padding: .75rem .5rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 0.25rem;
+      height: 3.5rem;
+      width: 7rem;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+      transition: transform 0.2s;
+    }
+    
+    .chat-button:hover {
+      transform: translateY(-2px);
+    }
+    
+    .chat-icon {
+      font-size: 1.2rem;
+    }
+    
+    .chat-content {
+      position: absolute;
+      bottom: calc(100% + 1rem);
+      right: 0;
+      width: 300px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+      display: none;
+      overflow: hidden;
+      transition: opacity 0.3s, transform 0.3s;
+      opacity: 0;
+      transform: translateY(20px);
+      pointer-events: none;
+    }
+    
+    .chat-content.active {
+      display: block;
+      opacity: 1;
+      transform: translateY(0);
+      pointer-events: all;
+    }
+    
+    .chat-header {
+      background: #42aaff;
+      color: white;
+      padding: .75rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .chat-header h3 {
+      margin: 0;
+      font-size: 1rem;
+    }
+    
+    .close-button {
+      background: none;
+      border: none;
+      color: white;
+      font-size: 1.5rem;
+      cursor: pointer;
+      padding: 0;
+    }
+    
+    .chat-body {
+      padding: 1.25rem;
+      line-height: 1.5;
+    }
+    .chat-disclaimer {
+      font-size: 0.6rem;
+      margin-top: -1rem;
+    }
+    .chat-body p {
+      margin: 0 0 1rem 0;
+    }
+    
+    .chat-body a {
+      color: #2196F3;
+      text-decoration: none;
+    }
+    
+    .chat-body a:hover {
+      text-decoration: underline;
+    }
+    .chat-label {
+      font-size: 1rem;
+      color: #ffffff;
+      font-weight: 700;
+      text-align: center;
+    }
+    .justin-image {
+      border-radius: 25px;
+      margin-top: -.5rem;
+      margin-bottom: .5rem;
+    }
+    .promise-container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    
+    .promise-container ol {
+      padding-left: 40px;
+    }
+    
+    .promise-container li {
+      font-size: 1rem;
+      margin-bottom: 10px;
+      font-weight: 500;
+    }
+    .promise-header{
+      font-size: 1.25rem;
+      font-weight: 400;
+      color: #54b6f7;
+      font-family: 'Suez One', serif;
+      text-align: center;
+    }
+    .blog-container {
+      max-width: 700px;  /* limits width for better readability */
+      margin: 0 auto;    /* centers the container */
+      padding: 20px 40px; /* adds space around the content */
+    }
+    
+    .blog-container h5 {
+      font-size: 1.75rem;   /* increases font size */
+      font-weight: 400;  /* makes text bold */
+      color: #54b6f7;    /* changes text color */
+      margin-bottom: 12px; /* adds space below the heading */
+      text-align: center;  /* centers the heading */
+      font-family: 'Suez One', serif;
+    
+    }
+    
+    .blog-container p {
+      margin-bottom: 24px;  /* adds space between paragraphs */
+      line-height: 1.8;     /* adds space between lines */
+      font-size: 18px;
+      font-weight: 420;    
+      color: #555555  /* makes text more readable */
+    }
+    
+    .signature-container {
+      margin-top: -1rem;
+      padding-left: 3rem;
+      
+    }
+    
+    .signature {
+      font-size: 1.2rem;
+      color: #666;  /* Match your brand blue */
+      transform: rotate(-4deg);
+      line-height: 1;  /* Reduce line height to bring lines closer */
+    }
+    
+    .signature-title {
+      font-size: 0.9rem;
+      color: #666;
+      margin-left: 0.5rem;
+      margin-bottom: -3rem;  /* Slight tilt for authenticity */
+    
+    }
+    .phone-container {
+      width: 100%;
+      max-width: 240px;  /* Adjust based on your needs */
+      margin: .1rem auto;
+      padding: 10px;
+    }
+    .phone-frame {
+      position: relative;
+      background: #1a1a1a;
+      border-radius: 50px;
+      padding: 12px;
+      box-shadow: 
+        0 0 0 2px #2a2a2a,
+        inset 0 0 5px rgba(0, 0, 0, 0.5),
+        0 20px 40px rgba(0, 0, 0, 0.2);
+    }
+    
+    /* Power button */
+    .phone-frame::before {
+      content: '';
+      position: absolute;
+      right: -3px;
+      top: 100px;
+      width: 3px;
+      height: 40px;
+      background: #2a2a2a;
+      border-radius: 0 3px 3px 0;
+    }
+    
+    /* Volume buttons */
+    .phone-frame::after {
+      content: '';
+      position: absolute;
+      left: -3px;
+      top: 80px;
+      width: 3px;
+      height: 80px;
+      background: #2a2a2a;
+      border-radius: 3px 0 0 3px;
+    }
+    .phone-screen {
+      width: 100%;
+      border-radius: 30px;
+      aspect-ratio: 9/19.5;  /* iPhone aspect ratio */
+      object-fit: cover;
+    }
+    .features-list {
+      padding-left: 20px; /* Gives space for numbers */
+      list-style-type: decimal; /* Explicitly set numbered list */
+    }
+    
+    .features-list li {
+      margin-bottom: 24px;
+      line-height: 1.8;
+      font-size: 16px;
+      font-weight: 420;
+      color: #555555;
+      padding-left: 0.5em; /* Space between number and text */
+    }
+    
+    /* Style the numbers */
+    .features-list li::marker {
+      color: #54b6f7; /* Makes the numbers blue */
+      font-weight: bold;
+    }
+    
+    .footer-container {
+      background-color: #42a0ff;
+      padding: 3rem 1rem;
+      margin-top: 4rem;
+      border-top: 4px solid #e2e8f0;
+    }
+    
+    .footer-content {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    
+    .footer-sections {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 2rem;
+      margin-bottom: 2rem;
+    }
+    .footer-section h3 {
+      color: #f6f8f9;
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+    }
+    
+    .footer-section ul {
+      list-style: none;
+      padding: 0;
+    }
+    
+    .footer-section ul li {
+      margin-bottom: 0.5rem;
+      color: #f6f8f9;
+    
+    }
+    
+    .footer-section a {
+      color: #f6f8f9;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    
+    .footer-section a:hover {
+      color: #f6f8f9;
+    }
+    
+    .footer-bottom {
+      padding-top: 2rem;
+      border-top: 1px solid #f6f8f9;
+      text-align: center;
+      color: #e8dada;
+      font-size: 0.875rem;
+    }
+    .social-links {
+      display: flex;
+      gap: 2rem;
+      margin-top: 0.75rem;
+    }
+    
+    .social-icon {
+      transition: transform 0.2s ease;
+    }
+    
+    .social-icon:hover {
+      transform: translateY(-2px);
+    }
+    
+    /* Make images not look pixelated when scaled */
+    .social-icon img {
+      width: 24px;
+      height: 24px;
+      object-fit: contain;
+    }
+    
+    .cookie-notice {
+      margin-top: 1rem;
+      font-size: 0.75rem;
+    }
+    
+    
+  }
+}

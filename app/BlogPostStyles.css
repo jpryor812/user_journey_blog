@@ -1,0 +1,151 @@
+.blog-post {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+  }
+  
+  .blog-header {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .blog-header h1 {
+    font-size: 1.75rem;
+    color: #59B6F2;
+    font-weight: 200;
+    font-family: 'Suez One', serif;
+    margin-bottom: 1rem;
+  }
+  
+  .blog-meta {
+    color: #666;
+    font-size: 0.9rem;
+  }
+  
+  .blog-meta time {
+    margin-right: 1rem;
+  }
+  
+  .blog-content {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #444;
+  }
+  
+  .blog-content p {
+    margin-bottom: 1.5rem;
+  }
+  
+  .blog-content h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #333;
+    margin: 2.5rem 0 1.5rem;
+    text-decoration: underline;
+  }
+  
+  .blog-content h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #333;
+    margin: 2.5rem 0 1.5rem;
+  }
+
+  .blog-content ul {
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+  }
+  
+  .blog-content li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .blog-image-container {
+    margin: 2rem 0;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    display: flex;
+  }
+  
+  .blog-hero-image, 
+  .blog-content-image {
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 0.4rem;
+    width: 300px;
+    height: 180px;
+  }
+  
+  .cta-section {
+    margin-top: 3rem;
+    padding: 2rem;
+    background-color: #f8f9fa;
+    border-radius: 0.5rem;
+    text-align: center;
+  }
+  
+  .cta-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  .blog-video-container {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .blog-video-container .help-from-yu-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .blog-video-container .help-from-yu-demo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .blog-video-container .help-from-yu-demo-video {
+    width: 100%;
+    max-width: 600px;  /* Adjust this value to make video larger */
+    height: auto;
+    border-radius: 0.5rem;
+  }
+  
+  /* You might also need to override any existing help-from-yu styles */
+  .help-from-yu-container {
+    width: 100%;
+    margin: 0;
+    padding: 0 2rem;
+  }
+  
+  .help-from-yu-demo {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  @media (min-width: 768px) {
+    .blog-header h1 {
+      font-size: 2.25rem;
+    }
+    
+    .blog-content {
+      font-size: 1rem;
+    }
+  }
+@media (min-width: 1000px) {
+    .blog-hero-image {
+        width: 500px;
+        height: 300px;
+    }
+    .blog-header h1 {
+        font-size: 2.5rem;
+      }
+}
