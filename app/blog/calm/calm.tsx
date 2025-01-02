@@ -59,10 +59,10 @@ export default function Calm() {
   <div className="section-content">
     <p>The app store serves as a critical first impression for potential users. According to research, approximately 48% of users discover apps through app store browsing, while only 33% find apps through social media or search engines. This makes the app store presence a crucial marketing channel that deserves significant attention.</p>
 
-    <h3>What I Don't Like:</h3>
+    <h3>What I Don&apos;t Like:</h3>
     <ul>
       <li>
-        <strong>Outdated Preview Page:</strong> Comparing Calm to competitors like BetterSleep reveals a stark contrast in app store presentation. While Better Sleep offers an engaging video preview showing product features, holiday references, and clear value propositions, Calm relies on static images that barely show the app interface. The preview feels like it hasn't been updated since their 2017 App of the Year award.
+        <strong>Outdated Preview Page:</strong> Comparing Calm to competitors like BetterSleep reveals a stark contrast in app store presentation. While Better Sleep offers an engaging video preview showing product features, holiday references, and clear value propositions, Calm relies on static images that barely show the app interface. The preview feels like it hasn&apos;t been updated since their 2017 App of the Year award.
       </li>
       <li>
         <strong>Poor Visual Clarity:</strong> The current preview images make it difficult to see the actual app interface. The tagline &quot;sleep more and stress less live better&quot; is particularly hard to read due to small text size and poor contrast. This crucial messaging gets lost in the presentation.
@@ -108,7 +108,7 @@ export default function Calm() {
   <div className="section-content">
     <p>The onboarding experience critically influences user retention and engagement. Here&apos;s a detailed look at Calm&apos;s current approach:</p>
 
-    <h3>What I Don't Like:</h3>
+    <h3>What I Don&apos;t Like:</h3>
     <ul>
       <li>
         <strong>Premature Notification Requests:</strong> Immediately upon opening the app, users face a notification permission request. This comes before they understand why they might want notifications or what value the app provides. According to various sources:
@@ -248,7 +248,7 @@ export default function Calm() {
   title="Calm Popup Overload"
 />
 
-    <h3>What I Don't Like:</h3>
+    <h3>What I Don&apos;t Like:</h3>
     <ul>
       <li>
         <strong>Hidden Premium Content:</strong> Users can&apos;t preview any of the celebrity-narrated content before committing to a subscription. If someone is excited to try a Harry Styles narration, they must commit to a free trial without hearing even a sample.
@@ -257,7 +257,7 @@ export default function Calm() {
         <strong>Buried Popular Content:</strong> Celebrity-narrated stories, which could be a major draw for new users, are placed below &quot;Featured&quot; content rather than at the top where they might have more impact. These videos are much more intriguing to click on than general sleep content.
       </li>
       <li>
-        <strong>Underutilized Kids' Content:</strong> The children&apos;s sleep stories section is buried several rows down, despite potentially being one of the most valuable features for parents. This content could be a significant driver of subscriptions, as parents might subscribe simply to help their children sleep better.
+        <strong>Underutilized Kids Content:</strong> The children&apos;s sleep stories section is buried several rows down, despite potentially being one of the most valuable features for parents. This content could be a significant driver of subscriptions, as parents might subscribe simply to help their children sleep better.
       </li>
     </ul>
     <YouTubeEmbed 
@@ -278,7 +278,7 @@ export default function Calm() {
         <strong>Content Hierarchy:</strong> Move popular sleep stories, especially celebrity-narrated content, to the top for new users. This immediately showcases high-value content that might drive conversion.
       </li>
       <li>
-        <strong>Kids' Content Focus:</strong> Create a dedicated bottom navigation tab for children&apos;s content, replacing the redundant Premium tab (since premium promotions appear throughout the app anyway). This could include:
+        <strong>Kids Content Focus:</strong> Create a dedicated bottom navigation tab for children&apos;s content, replacing the redundant Premium tab (since premium promotions appear throughout the app anyway). This could include:
         <ul>
         <li></li>
           <li>Age-appropriate content categories</li>
@@ -296,7 +296,7 @@ export default function Calm() {
 <section>
   <h2>Profile and Statistics</h2>
   <div className="section-content">
-    <h3>What I Don't Like:</h3>
+    <h3>What I Don&apos;t Like:</h3>
     <ul>
       <li>
         <strong>Surface-Level Metrics:</strong> The current statistics show total sessions, mindful minutes, and streaks, but these numbers don&apos;t provide meaningful insight into the app&apos;s impact on wellbeing or sleep quality.
@@ -339,7 +339,7 @@ export default function Calm() {
 <section>
   <h2>Premium Features</h2>
   <div className="section-content">
-    <h3>What I Don't Like:</h3>
+    <h3>What I Don&apos;t Like:</h3>
     <ul>
       <li>
         <strong>Inconsistent Pricing:</strong> The app shows different pricing offers at different times - offering 50% off initially but then showing full price later in the same session. This creates confusion and potential frustration.
