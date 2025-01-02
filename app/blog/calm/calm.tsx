@@ -34,7 +34,7 @@ export default function Calm() {
           />
         </div>
 
-        <p>Today we're examining Calm's user experience and interface design from the perspective of a new user seeking help with sleep. We'll follow the journey from app store discovery to regular usage, analyzing every touchpoint and interaction along the way.</p>
+        <p>Today we&apos;re examining Calm&apos;s user experience and interface design from the perspective of a new user seeking help with sleep. We&apos;ll follow the journey from app store discovery to regular usage, analyzing every touchpoint and interaction along the way.</p>
 
         <h6 style={{ 
           fontStyle: 'italic', 
@@ -52,7 +52,7 @@ export default function Calm() {
           >
             my YouTube video
           </a>
-          {' '}transcript with slight editing and organization from me, so don't expect beautiful writing. This is intended to be a short and snappy summary of the video. Therefore, I reccomend you watch the video first and come back here for review. 
+          {' '}transcript with slight editing and organization from me, so don&apos;t expect beautiful writing. This is intended to be a short and snappy summary of the video. Therefore, I reccomend you watch the video first and come back here for review. 
         </h6>
 <section>
   <h2>App Store Presence</h2>
@@ -65,16 +65,16 @@ export default function Calm() {
         <strong>Outdated Preview Page:</strong> Comparing Calm to competitors like BetterSleep reveals a stark contrast in app store presentation. While Better Sleep offers an engaging video preview showing product features, holiday references, and clear value propositions, Calm relies on static images that barely show the app interface. The preview feels like it hasn't been updated since their 2017 App of the Year award.
       </li>
       <li>
-        <strong>Poor Visual Clarity:</strong> The current preview images make it difficult to see the actual app interface. The tagline "sleep more and stress less live better" is particularly hard to read due to small text size and poor contrast. This crucial messaging gets lost in the presentation.
+        <strong>Poor Visual Clarity:</strong> The current preview images make it difficult to see the actual app interface. The tagline &quot;sleep more and stress less live better&quot; is particularly hard to read due to small text size and poor contrast. This crucial messaging gets lost in the presentation.
       </li>
       <li>
-        <strong>Missing Video Preview:</strong> The app store now supports brief preview videos, but Calm hasn't taken advantage of this feature. Competitors are using 10-15 second demos that effectively showcase their features and benefits, creating a more engaging first impression.
+        <strong>Missing Video Preview:</strong> The app store now supports brief preview videos, but Calm hasn&apos;t taken advantage of this feature. Competitors are using 10-15 second demos that effectively showcase their features and benefits, creating a more engaging first impression.
       </li>
       <li>
-        <strong>Dated Achievement Focus:</strong> Calm prominently displays its "App of the Year 2017" achievement, which feels increasingly irrelevant in 2024. This valuable space could better serve users by highlighting current features and benefits.
+        <strong>Dated Achievement Focus:</strong> Calm prominently displays its &quot;App of the Year 2017&quot; achievement, which feels increasingly irrelevant in 2024. This valuable space could better serve users by highlighting current features and benefits.
       </li>
       <li>
-        <strong>Lack of Visual Impact:</strong> The current design fails to leverage the Von Restoff effect, where distinctive elements naturally catch the eye. Better Sleep's video preview immediately stands out and creates interest, while Calm's static blue background with small images fails to capture attention.
+        <strong>Lack of Visual Impact:</strong> The current design fails to leverage the Von Restoff effect, where distinctive elements naturally catch the eye. BetterSleep&apos;s video preview immediately stands out and creates interest, while Calm&apos;s static blue background with small images fails to capture attention.
       </li>
     </ul>
     <YouTubeEmbed 
@@ -85,10 +85,10 @@ export default function Calm() {
     <h3>What I Recommend:</h3>
     <ul>
       <li>
-        <strong>Create Engaging Video Content:</strong> Develop a 10-15 second video demo that shows the app in action, including features like meditation interfaces, sleep stories, and the calming visual design. This would help potential users better understand what they're downloading.
+        <strong>Create Engaging Video Content:</strong> Develop a 10-15 second video demo that shows the app in action, including features like meditation interfaces, sleep stories, and the calming visual design. This would help potential users better understand what they&apos;re downloading.
       </li>
       <li>
-        <strong>Update Visual Assets:</strong> The preview images need a complete overhaul with clearer, more visible content. Text should be easily readable, and screenshots should better demonstrate the app's functionality and design.
+        <strong>Update Visual Assets:</strong> The preview images need a complete overhaul with clearer, more visible content. Text should be easily readable, and screenshots should better demonstrate the app&apos;s functionality and design.
       </li>
       <li>
         <strong>Modernize Presentation:</strong> Take full advantage of current app store capabilities. This is a relatively low-effort, high-impact investment compared to ongoing marketing efforts like social media and SEO. A well-designed app store page serves as a permanent digital billboard.
@@ -106,7 +106,7 @@ export default function Calm() {
 <section>
   <h2>Initial Onboarding</h2>
   <div className="section-content">
-    <p>The onboarding experience critically influences user retention and engagement. Here's a detailed look at Calm's current approach:</p>
+    <p>The onboarding experience critically influences user retention and engagement. Here&apos;s a detailed look at Calm&apos;s current approach:</p>
 
     <h3>What I Don't Like:</h3>
     <ul>
@@ -125,10 +125,10 @@ export default function Calm() {
         <strong>Permission Overload:</strong> Following the notification request, users immediately face a tracking permissions popup. This rapid succession of permission requests creates unnecessary friction and potential privacy concerns before establishing any trust with the user.
       </li>
       <li>
-        <strong>Early Premium Push:</strong> The app quickly presents a premium subscription offer showing "50,000 minutes of audio designed to relieve anxiety, stress and more" without users understanding what this means or experiencing any content. The exit button is subtly placed in the top left corner, making it easy to miss.
+        <strong>Early Premium Push:</strong> The app quickly presents a premium subscription offer showing &quot;50,000 minutes of audio designed to relieve anxiety, stress and more&quot; without users understanding what this means or experiencing any content. The exit button is subtly placed in the top left corner, making it easy to miss.
       </li>
       <li>
-        <strong>Stressful First Experience:</strong> After the initial "take a deep breath" message, users face multiple popup requests for permissions and subscriptions. This creates a stressful environment that contradicts Calm's core purpose. For an app focused on reducing stress, this aggressive approach feels particularly misaligned.
+        <strong>Stressful First Experience:</strong> After the initial &quot;take a deep breath&quot; message, users face multiple popup requests for permissions and subscriptions. This creates a stressful environment that contradicts Calm&apos;s core purpose. For an app focused on reducing stress, this aggressive approach feels particularly misaligned.
       </li>
     </ul>
     <YouTubeEmbed 
@@ -139,7 +139,7 @@ export default function Calm() {
     <h3>What I Like:</h3>
     <ul>
       <li>
-        <strong>Initial Question:</strong> The "What brings you to Calm?" question effectively gathers user intent while demonstrating a commitment to personalization. The app promises to "personalize recommendations based on your goals," making the data collection feel beneficial to the user.
+        <strong>Initial Question:</strong> The &quot;What brings you to Calm?&quot; question effectively gathers user intent while demonstrating a commitment to personalization. The app promises to &quot;personalize recommendations based on your goals,&quot; making the data collection feel beneficial to the user.
       </li>
       <li>
         <strong>Clear Value Communication:</strong> The app effectively communicates how it will use responses to customize the experience, creating anticipation for personalized content.
@@ -177,13 +177,13 @@ export default function Calm() {
     <h3>What I Like:</h3>
     <ul>
       <li>
-        <strong>Ambient Audio:</strong> The app includes subtle cricket sounds in the background while browsing, creating an immediately calming atmosphere that reinforces the app's purpose.
+        <strong>Ambient Audio:</strong> The app includes subtle cricket sounds in the background while browsing, creating an immediately calming atmosphere that reinforces the app&apos;s purpose.
       </li>
       <li>
         <strong>Scene Customization:</strong> Users can choose from various background scenes like Yosemite, Jasper Lake, and others, with different color schemes for different times of day. This allows for a personalized, calming environment.
       </li>
       <li>
-        <strong>Mood-Based Content:</strong> The app offers content recommendations based on current mood, making suggestions more relevant and personal. For example, if a user indicates they're feeling tired, they might see videos and lo-fi beats designed to help reset attention.
+        <strong>Mood-Based Content:</strong> The app offers content recommendations based on current mood, making suggestions more relevant and personal. For example, if a user indicates they&apos;re feeling tired, they might see videos and lo-fi beats designed to help reset attention.
       </li>
       <li>
         <strong>Daily Gift Feature:</strong> The interactive sound bowl feature serves as an engaging daily gift, encouraging regular app visits. The interactive nature of tracing the sound bowl creates an engaging experience rather than just opening a static reward.
@@ -237,7 +237,7 @@ export default function Calm() {
         This clear categorization helps users quickly find their preferred type of content.
       </li>
       <li>
-        <strong>Visual Quality:</strong> The thumbnails are particularly well-executed. For example, the Glacier Express thumbnail transforms what could be a simple train journey into an evocative "train to the North Pole" experience. These high-quality visuals help users better understand and connect with the content.
+        <strong>Visual Quality:</strong> The thumbnails are particularly well-executed. For example, the Glacier Express thumbnail transforms what could be a simple train journey into an evocative &quot;Train to the North Pole&quot; experience. These high-quality visuals help users better understand and connect with the content.
       </li>
       <li>
         <strong>Content Variety:</strong> The range of content types effectively addresses different preferences for falling asleep, from ambient sounds to storytelling to guided experiences.
@@ -251,13 +251,13 @@ export default function Calm() {
     <h3>What I Don't Like:</h3>
     <ul>
       <li>
-        <strong>Hidden Premium Content:</strong> Users can't preview any of the celebrity-narrated content before committing to a subscription. If someone is excited to try a Harry Styles narration, they must commit to a free trial without hearing even a sample.
+        <strong>Hidden Premium Content:</strong> Users can&apos;t preview any of the celebrity-narrated content before committing to a subscription. If someone is excited to try a Harry Styles narration, they must commit to a free trial without hearing even a sample.
       </li>
       <li>
-        <strong>Buried Popular Content:</strong> Celebrity-narrated stories, which could be a major draw for new users, are placed below "Featured" content rather than at the top where they might have more impact. These videos are much more intriguing to click on than general sleep content.
+        <strong>Buried Popular Content:</strong> Celebrity-narrated stories, which could be a major draw for new users, are placed below &quot;Featured&quot; content rather than at the top where they might have more impact. These videos are much more intriguing to click on than general sleep content.
       </li>
       <li>
-        <strong>Underutilized Kids' Content:</strong> The children's sleep stories section is buried several rows down, despite potentially being one of the most valuable features for parents. This content could be a significant driver of subscriptions, as parents might subscribe simply to help their children sleep better.
+        <strong>Underutilized Kids' Content:</strong> The children&apos;s sleep stories section is buried several rows down, despite potentially being one of the most valuable features for parents. This content could be a significant driver of subscriptions, as parents might subscribe simply to help their children sleep better.
       </li>
     </ul>
     <YouTubeEmbed 
@@ -272,13 +272,13 @@ export default function Calm() {
     <h3>What I Recommend:</h3>
     <ul>
       <li>
-        <strong>Preview System:</strong> Implement a freemium model where users can experience 2 minutes of any sleep story. This gives users a taste of premium content without giving everything away in a free trial. Users will start a 20 minute sleep story with Harry Styles and then be asked to sign up for premium to continue, which I suspect would have high conversion as many users will wannt to finish the story they're currently enjoying. Also, it limits the risk of users listening to all of the most interesting content during the free trial and not seeing the benefit of converting to a paid subscription.
+        <strong>Preview System:</strong> Implement a freemium model where users can experience 2 minutes of any sleep story. This gives users a taste of premium content without giving everything away in a free trial. Users will start a 20 minute sleep story with Harry Styles and then be asked to sign up for premium to continue, which I suspect would have high conversion as many users will wannt to finish the story they&apos;re currently enjoying. Also, it limits the risk of users listening to all of the most interesting content during the free trial and not seeing the benefit of converting to a paid subscription.
       </li>
       <li>
         <strong>Content Hierarchy:</strong> Move popular sleep stories, especially celebrity-narrated content, to the top for new users. This immediately showcases high-value content that might drive conversion.
       </li>
       <li>
-        <strong>Kids' Content Focus:</strong> Create a dedicated bottom navigation tab for children's content, replacing the redundant Premium tab (since premium promotions appear throughout the app anyway). This could include:
+        <strong>Kids' Content Focus:</strong> Create a dedicated bottom navigation tab for children&apos;s content, replacing the redundant Premium tab (since premium promotions appear throughout the app anyway). This could include:
         <ul>
         <li></li>
           <li>Age-appropriate content categories</li>
@@ -287,7 +287,7 @@ export default function Calm() {
         </ul>
       </li>
       <li>
-        <strong>Parent-Focused Marketing:</strong> Develop stronger marketing messaging around the app's value for families. Parents might subscribe not just for themselves but for a solution that helps their children sleep better, potentially making this a stronger value proposition than individual use cases.
+        <strong>Parent-Focused Marketing:</strong> Develop stronger marketing messaging around the app&apos;s value for families. Parents might subscribe not just for themselves but for a solution that helps their children sleep better, potentially making this a stronger value proposition than individual use cases.
       </li>
     </ul>
   </div>
@@ -299,10 +299,10 @@ export default function Calm() {
     <h3>What I Don't Like:</h3>
     <ul>
       <li>
-        <strong>Surface-Level Metrics:</strong> The current statistics show total sessions, mindful minutes, and streaks, but these numbers don't provide meaningful insight into the app's impact on wellbeing or sleep quality.
+        <strong>Surface-Level Metrics:</strong> The current statistics show total sessions, mindful minutes, and streaks, but these numbers don&apos;t provide meaningful insight into the app&apos;s impact on wellbeing or sleep quality.
       </li>
       <li>
-        <strong>Basic Calendar View:</strong> The calendar shows activity days but doesn't connect this activity to outcomes or benefits, making it less meaningful for users.
+        <strong>Basic Calendar View:</strong> The calendar shows activity days but doesn&apos;t connect this activity to outcomes or benefits, making it less meaningful for users.
       </li>
       <li>
         <strong>Limited Retention Mechanics:</strong> The streak feature feels like a shallow attempt at gamification without providing real value or motivation.
@@ -359,7 +359,7 @@ export default function Calm() {
     <h3>What I Recommend:</h3>
     <ul>
       <li>
-        <strong>Consistent Pricing:</strong> Maintain consistent pricing offers throughout a user's session. If a discount is offered, honor it throughout that session.
+        <strong>Consistent Pricing:</strong> Maintain consistent pricing offers throughout a user&apos;s session. If a discount is offered, honor it throughout that session.
       </li>
       <li>
         <strong>Preview Model:</strong> Instead of a complete free trial, offer preview access to premium content:
@@ -378,7 +378,7 @@ export default function Calm() {
 </section>
 
 <section>
-  <h2>Biggest Questions I'd Love to Ask the Calm Team</h2>
+  <h2>Biggest Questions I&apos;d Love to Ask the Calm Team</h2>
   <div className="section-content">
     <p>Calm has built an impressive foundation with high-quality content and a generally well-designed interface. However, several opportunities exist to enhance both user experience and business outcomes:</p>
 
@@ -397,7 +397,7 @@ export default function Calm() {
       </li>
     </ul>
 
-    <p>Overall, Calm is a beautiful app visually, but I think there's a lot of room for improvement for user experience, content discoverability, and revene generation.</p>
+    <p>Overall, Calm is a beautiful app visually, but I think there&apos;s a lot of room for improvement for user experience, content discoverability, and revene generation.</p>
   </div>
 </section>
     </div>    
