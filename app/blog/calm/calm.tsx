@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import '../../BlogPostStyles.css';
 import Link from 'next/link';
+import YouTubeEmbed from '../../components/YouTubeEmbed';
 
 export default function Calm() {
   return (
@@ -17,8 +18,8 @@ export default function Calm() {
       <div className="blog-header">
         <h1>Calm</h1>
         <div className="blog-meta">
-          <time>December 15, 2024</time>
-          <span className="reading-time">3 min read</span>
+          <time>January 4, 2025</time>
+          <span className="reading-time">5-10 min read</span>
         </div>
       </div>
 
@@ -35,6 +36,24 @@ export default function Calm() {
 
         <p>Today we're examining Calm's user experience and interface design from the perspective of a new user seeking help with sleep. We'll follow the journey from app store discovery to regular usage, analyzing every touchpoint and interaction along the way.</p>
 
+        <h6 style={{ 
+          fontStyle: 'italic', 
+          fontSize: '0.9rem',
+          color: '#666',
+          margin: '1rem 0',
+          textAlign: 'center'
+        }}>
+          Note: This is made with Claude summarizing{' '}
+          <a 
+            href="https://youtube.com/your-video-url" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            style={{ color: '#59B6F2', textDecoration: 'underline' }}
+          >
+            my YouTube video
+          </a>
+          {' '}transcript with slight editing and organization from me, so don't expect beautiful writing. This is intended to be a short and snappy summary of the video. Therefore, I reccomend you watch the video first and come back here for review. 
+        </h6>
 <section>
   <h2>App Store Presence</h2>
   <div className="section-content">
@@ -43,7 +62,7 @@ export default function Calm() {
     <h3>What I Don't Like:</h3>
     <ul>
       <li>
-        <strong>Outdated Preview Page:</strong> Comparing Calm to competitors like Better Sleep reveals a stark contrast in app store presentation. While Better Sleep offers an engaging video preview showing product features, holiday references, and clear value propositions, Calm relies on static images that barely show the app interface. The preview feels like it hasn't been updated since their 2017 App of the Year award.
+        <strong>Outdated Preview Page:</strong> Comparing Calm to competitors like BetterSleep reveals a stark contrast in app store presentation. While Better Sleep offers an engaging video preview showing product features, holiday references, and clear value propositions, Calm relies on static images that barely show the app interface. The preview feels like it hasn't been updated since their 2017 App of the Year award.
       </li>
       <li>
         <strong>Poor Visual Clarity:</strong> The current preview images make it difficult to see the actual app interface. The tagline "sleep more and stress less live better" is particularly hard to read due to small text size and poor contrast. This crucial messaging gets lost in the presentation.
@@ -58,6 +77,10 @@ export default function Calm() {
         <strong>Lack of Visual Impact:</strong> The current design fails to leverage the Von Restoff effect, where distinctive elements naturally catch the eye. Better Sleep's video preview immediately stands out and creates interest, while Calm's static blue background with small images fails to capture attention.
       </li>
     </ul>
+    <YouTubeEmbed 
+  videoId="mrZ5LZ2WxX0" 
+  title="Calm App Store Page"
+/>
 
     <h3>What I Recommend:</h3>
     <ul>
@@ -74,6 +97,10 @@ export default function Calm() {
         <strong>Regular Updates:</strong> Implement a system for regular app store presence updates, perhaps every six months or when Apple releases new preview features. This ensures the store presence stays current and effective.
       </li>
     </ul>
+    <YouTubeEmbed 
+  videoId="gsnaN7ha3tU" 
+  title="BetterSleep App Store Page"
+/>
   </div>
 </section>
 <section>
@@ -84,14 +111,15 @@ export default function Calm() {
     <h3>What I Don't Like:</h3>
     <ul>
       <li>
-        <strong>Premature Notification Requests:</strong> Immediately upon opening the app, users face a notification permission request. This comes before they understand why they might want notifications or what value the app provides. According to usage statistics:
+        <strong>Premature Notification Requests:</strong> Immediately upon opening the app, users face a notification permission request. This comes before they understand why they might want notifications or what value the app provides. According to various sources:
         <ul>
-          <li>Push notifications can boost engagement by 88%</li>
-          <li>65% of users return within 30 days when notifications are enabled</li>
-          <li>Users with notifications enabled show 4x better retention after three months (16% vs 4%)</li>
-          <li>60% of users say push notifications increase their app usage</li>
+          <li></li>
+          <li>Push notifications can boost engagement by <strong>88%</strong></li>
+          <li><strong>65%</strong> of users return within 30 days when notifications are enabled</li>
+          <li>Users with notifications enabled show <strong>4x</strong> better retention after three months (<strong>16%</strong> vs <strong>4%</strong>)</li>
+          <li><strong>60%</strong> of users say push notifications increase their app usage</li>
         </ul>
-        Given these statistics, the timing of this request is crucial and currently suboptimal.
+        Given these statistics, the timing of this request is crucial and currently suboptimal. It should be done as organic as possible, likely after the user has an ah ha moment with the app.
       </li>
             <li>
         <strong>Permission Overload:</strong> Following the notification request, users immediately face a tracking permissions popup. This rapid succession of permission requests creates unnecessary friction and potential privacy concerns before establishing any trust with the user.
@@ -103,6 +131,10 @@ export default function Calm() {
         <strong>Stressful First Experience:</strong> After the initial "take a deep breath" message, users face multiple popup requests for permissions and subscriptions. This creates a stressful environment that contradicts Calm's core purpose. For an app focused on reducing stress, this aggressive approach feels particularly misaligned.
       </li>
     </ul>
+    <YouTubeEmbed 
+  videoId="RD3UOoWI4g0" 
+  title="Calm Popup Overload"
+/>
 
     <h3>What I Like:</h3>
     <ul>
@@ -116,6 +148,10 @@ export default function Calm() {
         <strong>Thoughtful Follow-up:</strong> The promise of personalized recommendations creates a clear value proposition for sharing preferences.
       </li>
     </ul>
+    <YouTubeEmbed 
+  videoId="NRTL8o9cbwI" 
+  title="Calm Popup Overload"
+/>
 
     <h3>What I Recommend:</h3>
     <ul>
@@ -153,6 +189,18 @@ export default function Calm() {
         <strong>Daily Gift Feature:</strong> The interactive sound bowl feature serves as an engaging daily gift, encouraging regular app visits. The interactive nature of tracing the sound bowl creates an engaging experience rather than just opening a static reward.
       </li>
     </ul>
+    <YouTubeEmbed 
+  videoId="S0wh32sTPq8" 
+  title="Calm Popup Overload"
+/>
+<YouTubeEmbed 
+  videoId="PJpYZobrf-Q" 
+  title="Calm Popup Overload"
+/>
+<YouTubeEmbed 
+  videoId="cVyIxbshn8g" 
+  title="Calm Popup Overload"
+/>
 
     <h3>What I Recommend:</h3>
     <ul>
@@ -160,7 +208,7 @@ export default function Calm() {
         <strong>Dynamic Backgrounds:</strong> Implement auto-updating backgrounds based on time of day. For example, showing Denali or Yosemite in the morning and afternoon, then transitioning to Jasper Lake or waterfall scenes at night. Include a toggle option for users who prefer manual control.
       </li>
       <li>
-        <strong>Optimize Content Discovery:</strong> Move personalized recommendations higher in the interface hierarchy, making them more accessible. The current placement at the bottom of the page reduces their visibility and utility.
+        <strong>Optimize Content Discovery:</strong> Move personalized recommendations higher in the interface hierarchy, making them more accessible. The current placement at the bottom of the page reduces their visibility and utility. 
       </li>
       <li>
         <strong>Highlight Key Features:</strong> Make meditation for beginners more prominent, possibly featuring it on the homepage rather than burying it in the discover section.
@@ -170,7 +218,7 @@ export default function Calm() {
 </section>
 
 <section>
-  <h2>Sleep Content</h2>
+  <h2>Re-aligning Content and Increasing Conversions</h2>
   <div className="section-content">
     <h3>What I Like:</h3>
     <ul>
@@ -180,6 +228,7 @@ export default function Calm() {
       <li>
         <strong>Content Organization:</strong> The sleep content is thoughtfully organized into distinct categories:
         <ul>
+        <li></li>
           <li>Train journeys (like the Darjeeling Himalayan Railway and Amsterdam canals)</li>
           <li>Nature stories</li>
           <li>Fictional sleep stories</li>
@@ -194,6 +243,10 @@ export default function Calm() {
         <strong>Content Variety:</strong> The range of content types effectively addresses different preferences for falling asleep, from ambient sounds to storytelling to guided experiences.
       </li>
     </ul>
+    <YouTubeEmbed 
+  videoId="VS08NSPAiOw" 
+  title="Calm Popup Overload"
+/>
 
     <h3>What I Don't Like:</h3>
     <ul>
@@ -201,17 +254,25 @@ export default function Calm() {
         <strong>Hidden Premium Content:</strong> Users can't preview any of the celebrity-narrated content before committing to a subscription. If someone is excited to try a Harry Styles narration, they must commit to a free trial without hearing even a sample.
       </li>
       <li>
-        <strong>Buried Popular Content:</strong> Celebrity-narrated stories, which could be a major draw for new users, are placed below "Featured" content rather than at the top where they might have more impact.
+        <strong>Buried Popular Content:</strong> Celebrity-narrated stories, which could be a major draw for new users, are placed below "Featured" content rather than at the top where they might have more impact. These videos are much more intriguing to click on than general sleep content.
       </li>
       <li>
         <strong>Underutilized Kids' Content:</strong> The children's sleep stories section is buried several rows down, despite potentially being one of the most valuable features for parents. This content could be a significant driver of subscriptions, as parents might subscribe simply to help their children sleep better.
       </li>
     </ul>
+    <YouTubeEmbed 
+  videoId="bGeQ8PbwS5g" 
+  title="Calm Popup Overload"
+/>
+    <YouTubeEmbed 
+  videoId="dNhq4T921ck" 
+  title="Calm Popup Overload"
+/>
 
     <h3>What I Recommend:</h3>
     <ul>
       <li>
-        <strong>Preview System:</strong> Implement a freemium model where users can experience 2 minutes of any sleep story. This gives users a taste of premium content without giving everything away in a free trial.
+        <strong>Preview System:</strong> Implement a freemium model where users can experience 2 minutes of any sleep story. This gives users a taste of premium content without giving everything away in a free trial. Users will start a 20 minute sleep story with Harry Styles and then be asked to sign up for premium to continue, which I suspect would have high conversion as many users will wannt to finish the story they're currently enjoying. Also, it limits the risk of users listening to all of the most interesting content during the free trial and not seeing the benefit of converting to a paid subscription.
       </li>
       <li>
         <strong>Content Hierarchy:</strong> Move popular sleep stories, especially celebrity-narrated content, to the top for new users. This immediately showcases high-value content that might drive conversion.
@@ -219,6 +280,7 @@ export default function Calm() {
       <li>
         <strong>Kids' Content Focus:</strong> Create a dedicated bottom navigation tab for children's content, replacing the redundant Premium tab (since premium promotions appear throughout the app anyway). This could include:
         <ul>
+        <li></li>
           <li>Age-appropriate content categories</li>
           <li>Mood-based recommendations for children</li>
           <li>Parent-focused features and tracking</li>
@@ -252,6 +314,7 @@ export default function Calm() {
       <li>
         <strong>Wearable Integration:</strong> Partner with devices like Oura Ring to provide concrete data on how Calm usage impacts sleep and stress levels. This could include:
         <ul>
+        <li></li>
           <li>Before/after heart rate comparisons for meditation sessions</li>
           <li>Sleep quality scores on nights with/without using Calm</li>
           <li>Weekly and monthly trends in sleep and stress metrics</li>
@@ -260,6 +323,7 @@ export default function Calm() {
       <li>
         <strong>Impact Visualization:</strong> Create a more meaningful calendar view that shows:
         <ul>
+        <li></li>
           <li>Pre-session vs. post-session mood/stress levels</li>
           <li>Sleep quality on nights when Calm is used</li>
           <li>Correlation between consistent app usage and improved metrics</li>
@@ -287,6 +351,10 @@ export default function Calm() {
         <strong>Referral Imbalance:</strong> The referral program offers 30 days free to new users while current users only get 7-day trials, which could feel unfair to existing users.
       </li>
     </ul>
+    <YouTubeEmbed 
+  videoId="3HkXgf7fh4w" 
+  title="Calm Popup Overload"
+/>
 
     <h3>What I Recommend:</h3>
     <ul>
@@ -296,6 +364,7 @@ export default function Calm() {
       <li>
         <strong>Preview Model:</strong> Instead of a complete free trial, offer preview access to premium content:
         <ul>
+        <li></li>
           <li>2-minute previews of any sleep story</li>
           <li>Sample meditations from different categories</li>
           <li>Limited access to popular features</li>
@@ -309,26 +378,26 @@ export default function Calm() {
 </section>
 
 <section>
-  <h2>Final Thoughts</h2>
+  <h2>Biggest Questions I'd Love to Ask the Calm Team</h2>
   <div className="section-content">
     <p>Calm has built an impressive foundation with high-quality content and a generally well-designed interface. However, several opportunities exist to enhance both user experience and business outcomes:</p>
 
     <ul>
       <li>
-        <strong>Strategic Timing:</strong> Better alignment of premium offers and permission requests with moments of experienced value could improve conversion rates.
+        <strong>Why Go with a Full-Access Free Trial rather than Previews?</strong> 
       </li>
       <li>
-        <strong>Content Prioritization:</strong> Reorganizing content priority, especially for kids and beginners, could better serve key user segments and drive subscription growth.
+        <strong>Why Not Showcase Kids Content More?</strong> 
       </li>
       <li>
-        <strong>Value Demonstration:</strong> Implementing preview features and wellness tracking integration could better demonstrate the app's impact and justify the premium price point.
+        <strong>Have You Looked into Partnerships with Wearables like Oura Ring?</strong>
       </li>
       <li>
-        <strong>Modern Experience:</strong> Updating the app store presence and adding dynamic features could create a more engaging experience that better reflects the quality of the product.
+        <strong>Why Bombard Users with Pop-ups Immediately rather than Organically</strong>
       </li>
     </ul>
 
-    <p>These improvements could help Calm better serve its users while potentially improving key metrics like retention and conversion. The foundation is solid - it's now about refining the experience to maximize both user value and business outcomes.</p>
+    <p>Overall, Calm is a beautiful app visually, but I think there's a lot of room for improvement for user experience, content discoverability, and revene generation.</p>
   </div>
 </section>
     </div>    

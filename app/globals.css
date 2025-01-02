@@ -98,6 +98,12 @@ body {
 .header-links a:hover {
   color: #666;
 }
+.h6 {
+  font-size: .55rem;
+  color: #666;
+  font-weight: 100;
+  font-family: 'Suez One';
+}
 .header-title {
   font-size: 1rem;
   color: #59B6F2;
