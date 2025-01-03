@@ -2,13 +2,13 @@ import Calm from './calm';
 
 export const metadata = {
   title: 'Calm App Review',
-  description: 'You&apos;ve probably have had many moments in your life where you wanted to start a conversation with someone but were too scared or just didn&apos;t know what to say. This has happened to me countless times, but then I started using this little trick that has helped me start conversations with anyone at any time.',
+  description: 'Calm is one of the most beautiful apps on the market, so it&apos;s no surpise it has millions of users, but I believe Calm can improve substantially in terms of the user experience and is this blog post I lay out why it needs to change, and how it can improve.',
   openGraph: {
     title: 'Calm',
-    description: 'You&apos;ve probably have had many moments in your life where you wanted to start a conversation with someone but were too scared or just didn&apos;t know what to say. This has happened to me countless times, but then I started using this little trick that has helped me start conversations with anyone at any time.',
-    url: 'https://userjourney.blog/blog/calm',
+    description: 'Calm is one of the most beautiful apps on the market, so it&apos;s no surpise it has millions of users, but I believe Calm can improve substantially in terms of the user experience and is this blog post I lay out why it needs to change, and how it can improve.',
+    url: 'https://www.userjourneys.blog/blog/calm',
     type: 'article',
-    publishedTime: '2024-12-15T00:00:00.000Z',
+    publishedTime: '2025-01-04T00:00:00.000Z',
   },
 }
 

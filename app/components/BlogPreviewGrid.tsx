@@ -16,7 +16,7 @@ const BlogPreviewGrid: React.FC = () => {
     {
       title: "Calm",
       date: "January 1, 2025",
-      excerpt: "A beautiful app plagued by lazy optimization and underrepreented features. ",
+      excerpt: "A visually beautiful app plagued by poor optimizations and underrepresented features. Somehow an app like this still has so much potential to be better.",
       slug: "calm",
       image: "/calm-logo.png"
     },
@@ -24,6 +24,7 @@ const BlogPreviewGrid: React.FC = () => {
 
   return (
     <div className="blog-container">
+      <div className="UJ-header">Welcome to userjourneys.blog, the companion site to the User Journeys YouTube channel. Here you can find slightly modified Claude summaries of my videos in quick 5-10 minute reads. You can also check out all of the notifications I have collected from various apps, my X account, or reach out to submit your app for my review! I also welcome any comments regarding my analysis. Talk soon!</div>
       <h1 className="blog-title">RECENT BLOG POSTS</h1>
       
       <div className="blog-grid">

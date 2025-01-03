@@ -76,15 +76,27 @@ body {
   background-size: 100% 300%;
   animation: gradientAnimation 12s ease-in-out infinite alternate;
 }
+
 .header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  max-width: 1800px;
+  margin: 0 auto;
   width: 98%;
-  padding: 1rem;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
 }
 
 .header-links {
   display: flex;
   justify-content: flex-end;
   gap: 1rem; /* Creates equal spacing between links */
+  padding: 1rem;
 }
 
 .header-links a {
@@ -98,12 +110,6 @@ body {
 .header-links a:hover {
   color: #666;
 }
-.h6 {
-  font-size: .55rem;
-  color: #666;
-  font-weight: 100;
-  font-family: 'Suez One';
-}
 .header-title {
   font-size: 1rem;
   color: #59B6F2;
@@ -113,6 +119,16 @@ body {
   max-width: 210px;
   min-width: 50px;
   height: auto;
+}
+.UJ-header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-style: italic;
+  padding: 1rem;
+  color: #666666;
+  font-weight: 200;
+  font-family: 'Suez One', serif;
 }
 .blog-link {
   font-size: 1rem;
