@@ -17,8 +17,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: 'https://www.userjourneys.blog/UJ.png', // Add your OG image if you have one
-        width: 120,
-        height: 120,
+        width: 1200,
+        height: 630,
       },
     ],
     type: 'website',
@@ -37,7 +37,7 @@ export default function RootLayout({
         <main>      {/* Wrap children in main tag */}
           {children}
         </main>
-\      </body>
+      </body>
     </html>
   );
 }
