@@ -115,7 +115,7 @@ These are likely their most effective notifications, especially as they get to k
         fontWeight: '200',
         fontFamily: 'Suez One, serif'
       }}>
-If you watched my YouTube review, these are the notifications that come as a result of me asking Calm to remind me to check in to use the app, of which I requested to be sent at 10:00pm, before my hypothetical bedtime. Nothing too special here, but they sent this same notification every day, and I wonder if they could do more. Maybe suggest a specific piece of sleep or relaxation content for me to try. Now, I hadn't really used the app much, so it would be hard for them to make accurate suggestions, but I got this same notification daily, and I think it could be a little more unique and dynamic, and therefore enticing to click on.</h6>
+If you watched my YouTube review, these are the notifications that come as a result of me asking Calm to remind me to check in to use the app, of which I requested to be sent at 10:00pm, before my hypothetical bedtime. Nothing too special here, but they sent this same notification every day, and I wonder if they could do more. Maybe suggest a specific piece of sleep or relaxation content for me to try. Now, I had not really used the app much, so it would be hard for them to make accurate suggestions, but I got this same notification daily, and I think it could be a little more unique and dynamic, and therefore enticing to click on.</h6>
     <h3 className="notification-type">Notifications not neccessarily to get me in the app at that moment, but to cement in my mind that Calm is my go-to app for meditation and sleep; like an influencer</h3>
     <div className="notification-container">
     <Image 
@@ -153,7 +153,7 @@ If you watched my YouTube review, these are the notifications that come as a res
         fontWeight: '200',
         fontFamily: 'Suez One, serif'
       }}>
-I thought this was a really unique notification strategy, and one I appreciated. These notifications aren't necessarily trying to get me to go into Calm right now, but, at least in my interpretation, made me feel like Calm is my trusted anxiety-relieving influencer. By sending these simple, yet calming notifications, I'm reminded that Calm really does make me feel better, and how I should continue to use the app. I think this is a unique and likely effective strategy.</h6>
+I thought this was a really unique notification strategy, and one I appreciated. These notifications are not necessarily trying to get me to go into Calm right now, but, at least in my interpretation, made me feel like Calm is my trusted anxiety-relieving influencer. By sending these simple, yet calming notifications, I am reminded that Calm really does make me feel better, and how I should continue to use the app. I think this is a unique and likely effective strategy.</h6>
     </div>
   );
 }
