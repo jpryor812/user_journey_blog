@@ -24,7 +24,22 @@ const BlogPreviewGrid: React.FC = () => {
 
   return (
     <div className="blog-container">
-      <div className="UJ-header">Welcome to userjourneys.blog, the companion site to the User Journeys YouTube channel. Here you can find slightly modified Claude summaries of my videos in quick 5-10 minute reads. You can also check out all of the notifications I have collected from various apps, my X account, or reach out to submit your app for my review! I also welcome any comments regarding my analysis. Talk soon!</div>
+      <h6 style={{ 
+        fontStyle: 'italic', 
+        fontSize: '1rem',
+        color: '#666',
+        margin: '1rem 0',
+        textAlign: 'center',
+        fontWeight: '200',
+        fontFamily: 'Suez One, serif'
+      }}>
+        Welcome to userjourneys.blog, the companion site to the <a 
+          href="https://www.youtube.com/channel/UC_bS1W9O8jpTE6gG9wss1rg" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          style={{ color: '#59B6F2', textDecoration: 'underline' }}
+        >User Journeys YouTube channel</a>. Here you can find slightly modified Claude summaries of my videos in quick 5-10 minute reads. You can also check out all of the notifications I have collected from various apps, my X account, or reach out to submit your app for my review! I also welcome any comments regarding my analysis. Talk soon!
+      </h6>
       <h1 className="blog-title">RECENT BLOG POSTS</h1>
       
       <div className="blog-grid">
