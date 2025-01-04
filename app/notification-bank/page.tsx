@@ -36,7 +36,7 @@ export default function NotificationBank() {
         fontStyle: 'italic', 
         fontSize: '1rem',
         color: '#666',
-        margin: '1rem 6rem',
+        margin: '1rem 1rem',
         textAlign: 'center',
         fontWeight: '200',
         fontFamily: 'Suez One, serif'
@@ -59,8 +59,8 @@ Here is a catalog of all of the notifications I have collected from various popu
 <h6 style={{ 
         fontSize: '1.1rem',
         color: '#666',
-        margin: '1rem 6rem',
-        marginBottom: '2rem',
+        margin: '1rem 2rem',
+        marginBottom: '4rem',
         textAlign: 'center',
         fontWeight: '200',
         fontFamily: 'Suez One, serif'
@@ -88,8 +88,8 @@ A pretty standard flash-sale notification to try to get a user in the app to jum
 <h6 style={{ 
         fontSize: '1.1rem',
         color: '#666',
-        margin: '1rem 6rem',
-        marginBottom: '2rem',
+        margin: '1rem 2rem',
+        marginBottom: '4rem',
         textAlign: 'center',
         fontWeight: '200',
         fontFamily: 'Suez One, serif'
@@ -109,8 +109,8 @@ These are likely their most effective notifications, especially as they get to k
 <h6 style={{ 
         fontSize: '1.1rem',
         color: '#666',
-        margin: '1rem 6rem',
-        marginBottom: '2rem',
+        margin: '1rem 2rem',
+        marginBottom: '4rem',
         textAlign: 'center',
         fontWeight: '200',
         fontFamily: 'Suez One, serif'
@@ -147,8 +147,8 @@ If you watched my YouTube review, these are the notifications that come as a res
 <h6 style={{ 
         fontSize: '1.1rem',
         color: '#666',
-        margin: '1rem 6rem',
-        marginBottom: '2rem',
+        margin: '1rem 2rem',
+        marginBottom: '4rem',
         textAlign: 'center',
         fontWeight: '200',
         fontFamily: 'Suez One, serif'

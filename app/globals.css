@@ -128,7 +128,7 @@ body {
   font-family: 'Suez One', serif;
   margin-left: 4rem;
   margin-bottom: 1rem;
-  width: 50vw;
+  width: 80vw;
 }
 .notification-container {
   display: flex;
@@ -139,7 +139,7 @@ body {
 }
 
 .notification-image {
-  max-width: 40vw;
+  max-width: 80vw;
   width: 100%;
   height: auto;
   object-fit: contain;
@@ -889,6 +889,30 @@ h2.nufriends-description {
       margin-right: 6rem;
       text-decoration: underline;
     }
+    .notification-type {
+      font-size: 1.4rem;
+      color: #333;
+      text-decoration: underline;
+      font-weight: 300;
+      font-family: 'Suez One', serif;
+      margin-left: 4rem;
+      margin-bottom: 1rem;
+      width: 50vw;
+    }
+    .notification-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      margin: 2em 0;
+    }
+    
+    .notification-image {
+      max-width: 40vw;
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    } 
     .hero-section {
       text-align: center;
       padding: .5rem .5rem;
