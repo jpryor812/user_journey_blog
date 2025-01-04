@@ -120,6 +120,30 @@ body {
   min-width: 50px;
   height: auto;
 }
+.notification-type {
+  font-size: 1.4rem;
+  color: #333;
+  text-decoration: underline;
+  font-weight: 300;
+  font-family: 'Suez One', serif;
+  margin-left: 4rem;
+  margin-bottom: 1rem;
+  width: 50vw;
+}
+.notification-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2em 0;
+}
+
+.notification-image {
+  max-width: 40vw;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+} 
 .UJ-header {
   display: flex;
   justify-content: center;
