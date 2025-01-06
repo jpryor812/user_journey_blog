@@ -15,7 +15,7 @@ const BlogPreviewGrid: React.FC = () => {
   const blogPosts: BlogPost[] = [
     {
       title: "Calm",
-      date: "January 1, 2025",
+      date: "January 4, 2025",
       excerpt: "A visually beautiful app plagued by poor optimizations and underrepresented features. Somehow an app like this still has so much potential to be better.",
       slug: "calm",
       image: "/calm-logo.png"
