@@ -9,16 +9,26 @@ interface BlogPost {
   excerpt: string;
   slug: string;
   image: string;
+  titleColor: string;
 }
 
 const BlogPreviewGrid: React.FC = () => {
   const blogPosts: BlogPost[] = [
     {
+      title: "Strava",
+      date: "January 11, 2025",
+      excerpt: "It is no wonder Strava is loved by millions of users. It is perhaps the most feature-rich app I have ever seen, that aligns exactly with what runners, bikers, and so on need in an exercise tracker. While there are certainly some areas for improvement in the visual design and some optimizations, it is hard not to call this an excellently designed app.",
+      slug: "strava",
+      image: "/strava-logo.png",
+      titleColor: "#FC4C02"
+    },
+    {
       title: "Calm",
       date: "January 4, 2025",
       excerpt: "A visually beautiful app plagued by poor optimizations and underrepresented features. Somehow an app like this still has so much potential to be better.",
       slug: "calm",
-      image: "/calm-logo.png"
+      image: "/calm-logo.png",
+      titleColor: "#4C4DF8"
     },
   ];
 
@@ -47,7 +57,7 @@ const BlogPreviewGrid: React.FC = () => {
           <Link href={`/blog/${post.slug}`} key={post.slug}>
             <article className="blog-card">
               <div className="blog-card-content">
-                <h2 className="blog-card-title">
+                <h2 className="blog-card-title" style={{ color: post.titleColor }}>
                   {post.title}
                 </h2>
                 <time className="blog-card-date">

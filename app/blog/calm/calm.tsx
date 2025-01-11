@@ -17,12 +17,12 @@ export default function Calm() {
     <Link href="/notification-bank">Notification Bank</Link>
     <Link href="https://www.youtube.com/channel/UC_bS1W9O8jpTE6gG9wss1rg">YouTube</Link>
     <Link href="https://x.com/Justin_Pryor_">Twitter</Link>
-    <Link href="/about">Submit Your App</Link>
+    <Link href="/submit-your-app">Submit Your App</Link>
     </div>
     </div>
     <article className="blog-post">
       <div className="blog-header">
-        <h1>Calm</h1>
+        <h1 style={{ color: "#4C4DF8" }}>Calm</h1>
         <div className="blog-meta">
           <time>January 4, 2025</time>
           <span className="reading-time">5-10 min read</span>
