@@ -40,7 +40,7 @@ export default function Strava() {
           />
         </div>
         <p>
-            Today, we&apos;re diving into Strava's design and user experience to analyze what makes this app stand out as one of the best-designed fitness tracking platforms. We&apos;ll explore the app store presence, onboarding process, and user interface, highlighting what works, what doesn&apos;t, and areas for improvement.
+            Today, we&apos;re diving into Strava&apos;s design and user experience to analyze what makes this app stand out as one of the best-designed fitness tracking platforms. We&apos;ll explore the app store presence, onboarding process, and user interface, highlighting what works, what doesn&apos;t, and areas for improvement.
           </p>
 
         <h6 style={{ 
