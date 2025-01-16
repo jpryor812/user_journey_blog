@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: "Whether you are a developer, designer, or just curious about the user experience of popular apps, User Journeys is the place to be. We analyze the user experience of popular apps and provide insights on how to improve them. Learn from the best, submit your own apps for review, and get feedback from the community.",
   keywords: ["app design", "app development", "app review", "app analysis", "app user experience", "app user journey", "user experience design", "user experience analysis", "user experience review", "user experience design review", "user experience design analysis", "user experience design analysis review", "user experience design analysis review"],
   icons: {
-    icon: 'https://www.userjourneys.blog/UJ.png', // 16x16 or 32x32 px
+    icon: 'UJ.png', // 16x16 or 32x32 px
   },
   openGraph: {
   title: "User Journeys | Analyzing the User Experience of Popular Apps",
