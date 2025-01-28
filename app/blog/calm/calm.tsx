@@ -51,7 +51,7 @@ export default function Calm() {
         }}>
           Note: This is made with Claude summarizing{' '}
           <a 
-            href="https://youtube.com/your-video-url" 
+            href="https://youtu.be/dSvLEl6UJa8" 
             target="_blank" 
             rel="noopener noreferrer"
             style={{ color: '#59B6F2', textDecoration: 'underline' }}

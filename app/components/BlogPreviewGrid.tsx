@@ -30,6 +30,14 @@ const BlogPreviewGrid: React.FC = () => {
       image: "/calm-logo.png",
       titleColor: "#4C4DF8"
     },
+    {
+      title: "Shopify",
+      date: "January 26, 2025",
+      excerpt: "One of the most beautiful landing page I have ever seen, but with a product page that leaves a lot to be desired.",
+      slug: "shopify",
+      image: "/shopify-logo-final.png",
+      titleColor: "#7ed957"
+    }
   ];
 
   return (

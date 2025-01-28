@@ -52,7 +52,7 @@ export default function Strava() {
         }}>
           Note: This is made with Claude summarizing{' '}
           <a 
-            href="https://youtube.com/your-video-url" 
+            href="https://youtu.be/By1n6Enw9_c" 
             target="_blank" 
             rel="noopener noreferrer"
             style={{ color: '#59B6F2', textDecoration: 'underline' }}
