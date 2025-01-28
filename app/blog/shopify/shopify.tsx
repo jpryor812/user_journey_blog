@@ -106,7 +106,7 @@ export default function Shopify() {
       Again, it&apos;s beautiful. It showcases all that a Shopify store can be and everything that a solopreneur can create without drowning the user in dozens of features. Instead, Shopify only shows a few core features with excellent gif-like demos, some even being interactive, which I absolutely love.
     </p>
     <p>
-      For example, in the “sell here, there, and everywhere" section, you can actually click the “Pay Now” button, showing the user how quick and easy Shop Checkout is. I have never seen an interactive demo like that on a landing page before, and I love it. I highly recommend trying to build that in a prominent place on your landing page if you have a core feature that is simple and delightful to use.
+      For example, in the &quot;sell here, there, and everywhere&quot; section, you can actually click the &quot;Pay Now&quot; button, showing the user how quick and easy Shop Checkout is. I have never seen an interactive demo like that on a landing page before, and I love it. I highly recommend trying to build that in a prominent place on your landing page if you have a core feature that is simple and delightful to use.
     </p>
     <p>
       These high-quality gifs show some of Shopify&apos;s features but also continue the message of &quot;look what you can do and look how we can help,&quot; which is the core theme of the landing page.
